@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right, black, rgb(200, 95, 238));
+}
+
+
+header, footer{
+    background-color: rgb(104, 189, 161);
+    color:rgb(250, 246, 241);
+    text-align: center;
+    padding: 2rem;
+}
+img{
+    max-width: 80%;
+    filter: brightness(.9);
+    filter: blur(6px);
+}
+img:hover{
+    filter: blur(0);
+}
+.card{
+    padding: 1rem;
+    margin: 2rem;
+    width: 60%;
+    background-color: rgb(133, 223, 223);
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px purple;
+    border: 1px solid black;
+}
+.transform:hover{
+    transform: scalex(1.7) ;
+    transition: 2s ease-in;
+}
+.content{
+    background-color: rgb(101, 133, 226);
+    overflow: auto;
+    padding: 4px;
+    width: 100%;
+    color: rgb(246, 146, 7);
+}
